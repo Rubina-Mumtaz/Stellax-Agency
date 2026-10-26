@@ -19,7 +19,7 @@
 </head>
 
 <body>
-<header>
+    <header>
         <!-- Top Bar Start -->
         <div class="top-bar">
             <div class="container">
@@ -67,221 +67,547 @@
         <!-- Top Bar End -->
 
         <!-- Navbar Start -->
-<nav class="navbar navbar-expand-lg">
-    <div class="container px-6">
-        <!-- Agency Logo -->
-        <a class="navbar-brand" href="index.html">
-            <img src="Images/stellax logo White.png" alt="Stellax Agency Logo">
-        </a>
-
-        <!-- Toggle Button -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                
-                <!-- Home -->
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-
-                <!-- About Us -->
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About Us</a>
-                </li>
-
-                <!-- Services Dropdown -->
-                <li class="nav-item dropdown d-flex align-items-center">
-                    <a class="nav-link" href="services.html">Services</a>
-                    <button class="nav-link dropdown-toggle dropdown-toggle-split" type="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        <span class="visually-hidden">Toggle Dropdown</span>
-                    </button>
-
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a class="dropdown-item fw-bold" href="services.html">
-                                All Services
-                            </a>
-                        </li>
-                        <li><hr class="dropdown-divider"></li>
-
-                        <!-- Core Marketing & Dev Services -->
-                        <li>
-                            <a class="dropdown-item" href="services.html#digital-marketing">
-                                Digital Marketing & Meta Ads
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="services.html#seo">
-                                Search Engine Optimization (SEO)
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="services.html#web-development">
-                                Web & App Development
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="services.html#shopify">
-                                Shopify E-Commerce Stores
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="services.html#graphic-designing">
-                                Branding & Graphic Design
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="services.html#video-editing">
-                                Video Content & Editing
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="services.html#2d-animation">
-                                2D Animation & Motion Graphics
-                            </a>
-                        </li>
-
-                        <li><hr class="dropdown-divider"></li>
-
-                        <!-- Advanced Services / Coming Soon -->
-                        <li>
-                            <span class="dropdown-item-text">
-                                AI Marketing & Automation
-                                <span class="badge text-bg-warning">Coming Soon</span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="dropdown-item-text">
-                                Custom Software Solutions
-                                <span class="badge text-bg-warning">Coming Soon</span>
-                            </span>
-                        </li>
-                    </ul>
-                </li>
-
-                <!-- Portfolio Dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link active" aria-current="page" href="portfolio.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Portfolio
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="portfolio.html">All Work & Case Studies</a></li>
-                        <li><a class="dropdown-item" href="portfolio.html?filter=marketing">Marketing Results</a></li>
-                        <li><a class="dropdown-item" href="portfolio.html?filter=web">Websites & E-Commerce</a></li>
-                        <li><a class="dropdown-item" href="portfolio.html?filter=design">Designs & Branding</a></li>
-                    </ul>
-                </li>
-
-                <!-- Reviews & Testimonials -->
-                <li class="nav-item">
-                    <a class="nav-link" href="reviews.html">Reviews</a>
-                </li>
-
-                <!-- Contact -->
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-
-            </ul>
-
-            <!-- Header Action Buttons (CTAs) -->
-            <div class="d-flex align-items-center gap-2">
-                <a href="contact.html" class="btn btn-outline-primary">
-                    Get a Quote
+        <nav class="navbar navbar-expand-lg">
+            <div class="container px-6">
+                <!-- Agency Logo -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="Images/stellax logo White.png" alt="Stellax Agency Logo">
                 </a>
-                <a href="https://wa.me/923309063428" target="_blank" class="btn btn-primary">
-                    Hire Us
-                </a>
+
+                <!-- Toggle Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <!-- Home -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+
+                        <!-- About Us -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+
+                        <!-- Services Dropdown -->
+                        <li class="nav-item dropdown d-flex align-items-center">
+                            <a class="nav-link" href="services.html">Services</a>
+                            <button class="nav-link dropdown-toggle dropdown-toggle-split" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item fw-bold" href="services.html">
+                                        All Services
+                                    </a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+
+                                <!-- Core Marketing & Dev Services -->
+                                <li>
+                                    <a class="dropdown-item" href="services.html#digital-marketing">
+                                        Digital Marketing & Meta Ads
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="services.html#seo">
+                                        Search Engine Optimization (SEO)
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="services.html#web-development">
+                                        Web & App Development
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="services.html#shopify">
+                                        Shopify E-Commerce Stores
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="services.html#graphic-designing">
+                                        Branding & Graphic Design
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="services.html#video-editing">
+                                        Video Content & Editing
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="services.html#2d-animation">
+                                        2D Animation & Motion Graphics
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+
+                                <!-- Advanced Services / Coming Soon -->
+                                <li>
+                                    <span class="dropdown-item-text">
+                                        AI Marketing & Automation
+                                        <span class="badge text-bg-warning">Coming Soon</span>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="dropdown-item-text">
+                                        Custom Software Solutions
+                                        <span class="badge text-bg-warning">Coming Soon</span>
+                                    </span>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- Portfolio Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active" aria-current="page" href="portfolio.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Portfolio
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="portfolio.html">All Work & Case Studies</a></li>
+                                <li><a class="dropdown-item" href="portfolio.html?filter=marketing">Marketing
+                                        Results</a></li>
+                                <li><a class="dropdown-item" href="portfolio.html?filter=web">Websites & E-Commerce</a>
+                                </li>
+                                <li><a class="dropdown-item" href="portfolio.html?filter=design">Designs & Branding</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- Reviews & Testimonials -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="reviews.html">Reviews</a>
+                        </li>
+
+                        <!-- Contact -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+
+                    </ul>
+
+                    <!-- Header Action Buttons (CTAs) -->
+                    <div class="d-flex align-items-center gap-2">
+                        <a href="contact.html" class="btn btn-outline-primary">
+                            Get a Quote
+                        </a>
+                        <a href="https://wa.me/923309063428" target="_blank" class="btn btn-primary">
+                            Hire Us
+                        </a>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</nav>
+        </nav>
         <!-- Navbar End -->
     </header>
 
     <main>
-    <!-- Portfolio Hero Section Start -->
-    <section class="portfolio-hero-section py-5 text-white text-center" style="background-color: #0B1C2D;">
-        <div class="container py-4">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <span class="badge bg-info text-dark px-3 py-2 rounded-pill fw-bold mb-3">
-                        <i class="bi bi-collection-fill me-2"></i> Our Portfolio
-                    </span>
-                    <h1 class="display-4 fw-bold mb-3 text-white">
-                        Explore Our Recent <span class="text-info">Client Projects</span>
-                    </h1>
-                    <p class="lead text-white-50 mb-0">
-                        Dekhiye hamare successfully delivered projects jo humne web development, branding, digital marketing aur e-commerce stores ke liye banaye hain.
-                    </p>
+        <!-- Portfolio Hero Section Start -->
+        <section class="portfolio-hero-section py-5 text-white text-center" style="background-color: #0B1C2D;">
+            <div class="container py-4">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <span class="badge bg-info text-dark px-3 py-2 rounded-pill fw-bold mb-3">
+                            <i class="bi bi-collection-fill me-2"></i> Our Portfolio
+                        </span>
+                        <h1 class="display-4 fw-bold mb-3 text-white">
+                            Explore Our Recent <span class="text-info">Client Projects</span>
+                        </h1>
+                        <p class="lead text-white-50 mb-0">
+                            Dekhiye hamare successfully delivered projects jo humne web development, branding, digital
+                            marketing aur e-commerce stores ke liye banaye hain.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Portfolio Hero Section End -->
+        </section>
+        <!-- Portfolio Hero Section End -->
 
-    <!-- Projects Grid Section Start -->
-    <section class="portfolio-grid-section py-5 text-white" style="background-color: #0B1F3A;">
-        <div class="container py-4">
-            <div class="row g-4">
-                
-                <!-- Project 1: E-Commerce Store -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="card text-white border-0 rounded-4 overflow-hidden shadow h-100" style="background-color: #0B1C2D; border: 1px solid rgba(255,255,255,0.05) !important;">
-                        <img src="images/web-development-image.jpg" class="card-img-top" alt="E-Commerce Project" style="height: 200px; object-fit: cover;">
-                        <div class="card-body d-flex flex-column p-4">
-                            <span class="badge bg-info text-dark w-fit px-2 py-1 rounded mb-2 align-self-start">Shopify / E-Commerce</span>
-                            <h4 class="card-title fw-bold">Global Fashion Store</h4>
-                            <p class="card-text text-white-50 small flex-grow-1">
-                                Complete Shopify store design, custom liquid coding, payment gateway integration, and high-converting product pages.
-                            </p>
-                            <a href="contact.html" class="btn btn-outline-info text-white mt-3">View Details <i class="bi bi-arrow-right ms-1"></i></a>
-                        </div>
-                    </div>
-                </div>
+        <!-- Projects Grid Section Start -->
+        <section class="portfolio-grid-section py-5 text-white" style="background-color: #0B1F3A;">
+            <div class="container py-4">
+                <div class="row g-4">
 
-                <!-- Project 2: Web Application -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="card text-white border-0 rounded-4 overflow-hidden shadow h-100" style="background-color: #0B1C2D; border: 1px solid rgba(255,255,255,0.05) !important;">
-                        <img src="images/IT-Student-Hero-section.png" class="card-img-top" alt="Web App Project" style="height: 200px; object-fit: cover;">
-                        <div class="card-body d-flex flex-column p-4">
-                            <span class="badge bg-info text-dark w-fit px-2 py-1 rounded mb-2 align-self-start">Full-Stack Web App</span>
-                            <h4 class="card-title fw-bold">Stellax Platform Ecosystem</h4>
-                            <p class="card-text text-white-50 small flex-grow-1">
-                                Multi-portal web application featuring student/trainer portals, admin dashboards, and secure backend APIs powered by Node.js & Supabase.
-                            </p>
-                            <a href="contact.html" class="btn btn-outline-info text-white mt-3">View Details <i class="bi bi-arrow-right ms-1"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 3: Branding & Digital Marketing -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="card text-white border-0 rounded-4 overflow-hidden shadow h-100" style="background-color: #0B1C2D; border: 1px solid rgba(255,255,255,0.05) !important;">
-                        <img src="images/digital-marketing-image.jpg" class="card-img-top" alt="Branding Project" style="height: 200px; object-fit: cover;">
-                        <div class="card-body d-flex flex-column p-4">
-                            <span class="badge bg-info text-dark w-fit px-2 py-1 rounded mb-2 align-self-start">Branding & Ads</span>
-                            <h4 class="card-title fw-bold">TechBrand Identity & Meta Ads</h4>
-                            <p class="card-text text-white-50 small flex-grow-1">
-                                Comprehensive brand kit design, logo creation, and targeted Meta/Google ad campaigns generating 3x ROI for the client.
-                            </p>
-                            <a href="contact.html" class="btn btn-outline-info text-white mt-3">View Details <i class="bi bi-arrow-right ms-1"></i></a>
-                        </div>
-                    </div>
-                </div>
-
+                    <!-- Project Card: Anum Mumtaz Portfolio -->
+<div class="col-lg-4 col-md-6">
+    <div class="card text-white border-0 rounded-4 overflow-hidden shadow h-100" style="background-color: #0B1C2D; border: 1px solid rgba(255,255,255,0.05) !important;">
+        
+        <!-- Thumbnail Image Tag -->
+        <img src="Images/Anum Mumtaz Portfolio Thumbnail.jpg" class="card-img-top" alt="Anum Mumtaz Portfolio" style="height: 200px; object-fit: cover;">
+        
+        <div class="card-body d-flex flex-column p-4">
+            <span class="badge bg-info text-dark w-fit px-2 py-1 rounded mb-2 align-self-start">Full-Stack Portfolio</span>
+            <h4 class="card-title fw-bold">Anum Mumtaz Professional Portfolio</h4>
+            <p class="card-text text-white-50 small flex-grow-1">
+                A high-end personal portfolio website showcasing professional experience, creative design works, web development projects, and contact inquiries. Built with responsive modern UI/UX design.
+            </p>
+            <div class="d-flex gap-2 mt-3">
+                <a href="https://anummumtaz-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-info text-dark fw-bold btn-sm flex-grow-1">
+                    <i class="bi bi-eye-fill me-1"></i> Live Preview
+                </a>
             </div>
         </div>
-    </section>
-    <!-- Projects Grid Section End -->
-</main>
-    
+    </div>
+</div>
+
+                  <!-- Project Card: Client Portfolio -->
+<div class="col-lg-4 col-md-6">
+    <div class="card text-white border-0 rounded-4 overflow-hidden shadow h-100" style="background-color: #0B1C2D; border: 1px solid rgba(255,255,255,0.05) !important;">
+        
+        <!-- Thumbnail Image Tag -->
+        <img src="Images/" class="card-img-top" alt="Portfolio" style="height: 200px; object-fit: cover;">
+        
+        <div class="card-body d-flex flex-column p-4">
+            <span class="badge bg-info text-dark w-fit px-2 py-1 rounded mb-2 align-self-start">Full-Stack Portfolio</span>
+            <h4 class="card-title fw-bold">ClientProfessional Portfolio</h4>
+            <p class="card-text text-white-50 small flex-grow-1">
+                A high-end personal portfolio website showcasing professional experience, creative design works, web development projects, and contact inquiries. Built with responsive modern UI/UX design.
+            </p>
+            <div class="d-flex gap-2 mt-3">
+                <a href="https://" target="_blank" rel="noopener noreferrer" class="btn btn-info text-dark fw-bold btn-sm flex-grow-1">
+                    <i class="bi bi-eye-fill me-1"></i> Live Preview
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+               <!-- Project Card: Client Portfolio -->
+<div class="col-lg-4 col-md-6">
+    <div class="card text-white border-0 rounded-4 overflow-hidden shadow h-100" style="background-color: #0B1C2D; border: 1px solid rgba(255,255,255,0.05) !important;">
+        
+        <!-- Thumbnail Image Tag -->
+        <img src="Images/" class="card-img-top" alt="Portfolio" style="height: 200px; object-fit: cover;">
+        
+        <div class="card-body d-flex flex-column p-4">
+            <span class="badge bg-info text-dark w-fit px-2 py-1 rounded mb-2 align-self-start">Full-Stack Portfolio</span>
+            <h4 class="card-title fw-bold">ClientProfessional Portfolio</h4>
+            <p class="card-text text-white-50 small flex-grow-1">
+                A high-end personal portfolio website showcasing professional experience, creative design works, web development projects, and contact inquiries. Built with responsive modern UI/UX design.
+            </p>
+            <div class="d-flex gap-2 mt-3">
+                <a href="https://" target="_blank" rel="noopener noreferrer" class="btn btn-info text-dark fw-bold btn-sm flex-grow-1">
+                    <i class="bi bi-eye-fill me-1"></i> Live Preview
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+               <!-- Project Card: Client Portfolio -->
+<div class="col-lg-4 col-md-6">
+    <div class="card text-white border-0 rounded-4 overflow-hidden shadow h-100" style="background-color: #0B1C2D; border: 1px solid rgba(255,255,255,0.05) !important;">
+        
+        <!-- Thumbnail Image Tag -->
+        <img src="Images/" class="card-img-top" alt="Portfolio" style="height: 200px; object-fit: cover;">
+        
+        <div class="card-body d-flex flex-column p-4">
+            <span class="badge bg-info text-dark w-fit px-2 py-1 rounded mb-2 align-self-start">Full-Stack Portfolio</span>
+            <h4 class="card-title fw-bold">ClientProfessional Portfolio</h4>
+            <p class="card-text text-white-50 small flex-grow-1">
+                A high-end personal portfolio website showcasing professional experience, creative design works, web development projects, and contact inquiries. Built with responsive modern UI/UX design.
+            </p>
+            <div class="d-flex gap-2 mt-3">
+                <a href="https://" target="_blank" rel="noopener noreferrer" class="btn btn-info text-dark fw-bold btn-sm flex-grow-1">
+                    <i class="bi bi-eye-fill me-1"></i> Live Preview
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+               <!-- Project Card: Client Portfolio -->
+<div class="col-lg-4 col-md-6">
+    <div class="card text-white border-0 rounded-4 overflow-hidden shadow h-100" style="background-color: #0B1C2D; border: 1px solid rgba(255,255,255,0.05) !important;">
+        
+        <!-- Thumbnail Image Tag -->
+        <img src="Images/" class="card-img-top" alt="Portfolio" style="height: 200px; object-fit: cover;">
+        
+        <div class="card-body d-flex flex-column p-4">
+            <span class="badge bg-info text-dark w-fit px-2 py-1 rounded mb-2 align-self-start">Full-Stack Portfolio</span>
+            <h4 class="card-title fw-bold">ClientProfessional Portfolio</h4>
+            <p class="card-text text-white-50 small flex-grow-1">
+                A high-end personal portfolio website showcasing professional experience, creative design works, web development projects, and contact inquiries. Built with responsive modern UI/UX design.
+            </p>
+            <div class="d-flex gap-2 mt-3">
+                <a href="https://" target="_blank" rel="noopener noreferrer" class="btn btn-info text-dark fw-bold btn-sm flex-grow-1">
+                    <i class="bi bi-eye-fill me-1"></i> Live Preview
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+               <!-- Project Card: Client Portfolio -->
+<div class="col-lg-4 col-md-6">
+    <div class="card text-white border-0 rounded-4 overflow-hidden shadow h-100" style="background-color: #0B1C2D; border: 1px solid rgba(255,255,255,0.05) !important;">
+        
+        <!-- Thumbnail Image Tag -->
+        <img src="Images/" class="card-img-top" alt="Portfolio" style="height: 200px; object-fit: cover;">
+        
+        <div class="card-body d-flex flex-column p-4">
+            <span class="badge bg-info text-dark w-fit px-2 py-1 rounded mb-2 align-self-start">Full-Stack Portfolio</span>
+            <h4 class="card-title fw-bold">ClientProfessional Portfolio</h4>
+            <p class="card-text text-white-50 small flex-grow-1">
+                A high-end personal portfolio website showcasing professional experience, creative design works, web development projects, and contact inquiries. Built with responsive modern UI/UX design.
+            </p>
+            <div class="d-flex gap-2 mt-3">
+                <a href="https://" target="_blank" rel="noopener noreferrer" class="btn btn-info text-dark fw-bold btn-sm flex-grow-1">
+                    <i class="bi bi-eye-fill me-1"></i> Live Preview
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+               <!-- Project Card: Client Portfolio -->
+<div class="col-lg-4 col-md-6">
+    <div class="card text-white border-0 rounded-4 overflow-hidden shadow h-100" style="background-color: #0B1C2D; border: 1px solid rgba(255,255,255,0.05) !important;">
+        
+        <!-- Thumbnail Image Tag -->
+        <img src="Images/" class="card-img-top" alt="Portfolio" style="height: 200px; object-fit: cover;">
+        
+        <div class="card-body d-flex flex-column p-4">
+            <span class="badge bg-info text-dark w-fit px-2 py-1 rounded mb-2 align-self-start">Full-Stack Portfolio</span>
+            <h4 class="card-title fw-bold">ClientProfessional Portfolio</h4>
+            <p class="card-text text-white-50 small flex-grow-1">
+                A high-end personal portfolio website showcasing professional experience, creative design works, web development projects, and contact inquiries. Built with responsive modern UI/UX design.
+            </p>
+            <div class="d-flex gap-2 mt-3">
+                <a href="https://" target="_blank" rel="noopener noreferrer" class="btn btn-info text-dark fw-bold btn-sm flex-grow-1">
+                    <i class="bi bi-eye-fill me-1"></i> Live Preview
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+                    
+
+                    
+
+                    
+
+                </div>
+            </div>
+        </section>
+        <!-- Projects Grid Section End -->
+
+        <!-- Stellax Agency Services Grid Start -->
+        <section class="services-section py-5 text-white" style="background-color: #0B1C2D;">
+            <div class="container py-4">
+                <div class="text-center mb-5">
+                    <span class="badge bg-info text-dark px-3 py-2 rounded-pill fw-bold">Our Agency Services</span>
+                    <h2 class="display-5 fw-bold mt-3">Comprehensive <span class="text-info">Digital Solutions</span>
+                    </h2>
+                    <p class="text-white-50">We offer end-to-end digital services to help your business scale and
+                        succeed online.</p>
+                </div>
+
+                <div class="row g-4">
+                    <!-- 1. Digital Marketing Services -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card text-white border-0 rounded-4 overflow-hidden shadow h-100 p-3"
+                            style="background-color: #0B1F3A !important;">
+                            <div class="card-body d-flex flex-column">
+                                <i class="bi bi-megaphone-fill text-info fs-1 mb-3"></i>
+                                <h4 class="card-title fw-bold">Digital Marketing & Ads</h4>
+                                <p class="card-text text-white-50 small flex-grow-1">
+                                    Data-driven marketing strategies including Meta Ads (Facebook & Instagram), Google
+                                    PPC Ads, Social Media Management (SMM), Email Marketing, and Sales Funnel Building.
+                                </p>
+                                <a href="contact.html" class="btn btn-outline-info text-white mt-3">Hire Experts <i
+                                        class="bi bi-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2. Search Engine Optimization (SEO) -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card text-white border-0 rounded-4 overflow-hidden shadow h-100 p-3"
+                            style="background-color: #0B1F3A !important;">
+                            <div class="card-body d-flex flex-column">
+                                <i class="bi bi-search text-info fs-1 mb-3"></i>
+                                <h4 class="card-title fw-bold">SEO Optimization</h4>
+                                <p class="card-text text-white-50 small flex-grow-1">
+                                    On-Page SEO, Technical SEO, High-Quality Link Building, Local SEO (Google Business
+                                    Profile), and Content Strategy to drive organic organic traffic.
+                                </p>
+                                <a href="contact.html" class="btn btn-outline-info text-white mt-3">Hire Experts <i
+                                        class="bi bi-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3. Full-Stack Web Development -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card text-white border-0 rounded-4 overflow-hidden shadow h-100 p-3"
+                            style="background-color: #0B1F3A !important;">
+                            <div class="card-body d-flex flex-column">
+                                <i class="bi bi-code-slash text-info fs-1 mb-3"></i>
+                                <h4 class="card-title fw-bold">Web & App Development</h4>
+                                <p class="card-text text-white-50 small flex-grow-1">
+                                    Custom Front-End & Back-End Web Apps, Responsive Websites, Node.js APIs, Database
+                                    Integration (PostgreSQL/Supabase), and MERN/Full-Stack Solutions.
+                                </p>
+                                <a href="contact.html" class="btn btn-outline-info text-white mt-3">Hire Experts <i
+                                        class="bi bi-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4. E-Commerce Solutions -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card text-white border-0 rounded-4 overflow-hidden shadow h-100 p-3"
+                            style="background-color: #0B1F3A !important;">
+                            <div class="card-body d-flex flex-column">
+                                <i class="bi bi-cart-check-fill text-info fs-1 mb-3"></i>
+                                <h4 class="card-title fw-bold">E-Commerce Stores</h4>
+                                <p class="card-text text-white-50 small flex-grow-1">
+                                    Complete Shopify Store Design, WooCommerce Integration, Payment Gateway Setup,
+                                    Product Cataloging, and Order Management Automation.
+                                </p>
+                                <a href="contact.html" class="btn btn-outline-info text-white mt-3">Hire Experts <i
+                                        class="bi bi-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 5. Graphic Design & Branding -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card text-white border-0 rounded-4 overflow-hidden shadow h-100 p-3"
+                            style="background-color: #0B1F3A !important;">
+                            <div class="card-body d-flex flex-column">
+                                <i class="bi bi-palette-fill text-info fs-1 mb-3"></i>
+                                <h4 class="card-title fw-bold">Branding & Graphic Design</h4>
+                                <p class="card-text text-white-50 small flex-grow-1">
+                                    Logo Design, Complete Brand Identity Kits, Social Media Posts, UI/UX Wireframing,
+                                    Photoshop/Illustrator Artworks, Packaging, and Marketing Collaterals.
+                                </p>
+                                <a href="contact.html" class="btn btn-outline-info text-white mt-3">Hire Experts <i
+                                        class="bi bi-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 6. Video Editing & Motion Graphics -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card text-white border-0 rounded-4 overflow-hidden shadow h-100 p-3"
+                            style="background-color: #0B1F3A !important;">
+                            <div class="card-body d-flex flex-column">
+                                <i class="bi bi-camera-reels-fill text-info fs-1 mb-3"></i>
+                                <h4 class="card-title fw-bold">Video Editing & Reels</h4>
+                                <p class="card-text text-white-50 small flex-grow-1">
+                                    Professional Premiere Pro Editing, After Effects Motion Graphics, Instagram
+                                    Reels/TikTok Ads Editing, YouTube Video Production, and Color Grading.
+                                </p>
+                                <a href="contact.html" class="btn btn-outline-info text-white mt-3">Hire Experts <i
+                                        class="bi bi-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 7. Content Creation & Copywriting -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card text-white border-0 rounded-4 overflow-hidden shadow h-100 p-3"
+                            style="background-color: #0B1F3A !important;">
+                            <div class="card-body d-flex flex-column">
+                                <i class="bi bi-pencil-square text-info fs-1 mb-3"></i>
+                                <h4 class="card-title fw-bold">Content & Copywriting</h4>
+                                <p class="card-text text-white-50 small flex-grow-1">
+                                    Engaging Ad Copywriting, Website Content Creation, Blog Articles, Scriptwriting for
+                                    Videos, and Social Media Caption Writing.
+                                </p>
+                                <a href="contact.html" class="btn btn-outline-info text-white mt-3">Hire Experts <i
+                                        class="bi bi-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 8. 2D/3D Animation & Creative Work -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card text-white border-0 rounded-4 overflow-hidden shadow h-100 p-3"
+                            style="background-color: #0B1F3A !important;">
+                            <div class="card-body d-flex flex-column">
+                                <i class="bi bi-boxes text-info fs-1 mb-3"></i>
+                                <h4 class="card-title fw-bold">2D/3D Animation</h4>
+                                <p class="card-text text-white-50 small flex-grow-1">
+                                    2D Explainer Videos, Animated Character Design, Logo Animations, and 3D Asset/Visual
+                                    Design to create immersive digital experiences.
+                                </p>
+                                <a href="contact.html" class="btn btn-outline-info text-white mt-3">Hire Experts <i
+                                        class="bi bi-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Stellax Agency Services Grid End -->
+
+        <!-- 4. Leadership / Agency Founders Section Start -->
+        <section class="founders-section py-5 text-white" style="background-color: #0B1F3A;">
+            <div class="container py-4">
+                <div class="text-center mb-5">
+                    <span class="badge bg-info text-dark px-3 py-2 rounded-pill fw-bold">Leadership Team</span>
+                    <h2 class="display-5 fw-bold mt-3">Meet The Minds Behind <span class="text-info">Stellax
+                            Agency</span></h2>
+                </div>
+                <!-- Founder 1: Anum Mumtaz -->
+                <div class="row align-items-center gy-4 mb-5">
+                    <div class="col-lg-5 text-center">
+                        <img src="images/Anum Mumtaz.jpg" class="img-fluid rounded-4 shadow-lg" alt="Anum Mumtaz - CEO">
+                    </div>
+                    <div class="col-lg-7">
+                        <span class="badge bg-info text-dark px-3 py-2 rounded-pill fw-bold">Chief Executive
+                            Officer</span>
+                        <h2 class="display-6 fw-bold mt-2">Anum Mumtaz</h2>
+                        <h5 class="text-info mb-3">Founder & CEO | Creative Director</h5>
+                        <p class="text-white-50">
+                            Anum Mumtaz leads the creative vision at Stellax Agency. With extensive expertise in graphic
+                            designing, video editing, and brand storytelling, she ensures every client project stands
+                            out with exceptional visual appeal and high market impact.
+                        </p>
+                    </div>
+                </div>
+
+                <hr class="border-secondary my-5">
+
+                <!-- Founder 2: Rubina Mumtaz -->
+                <div class="row align-items-center gy-4">
+                    <div class="col-lg-5 text-center order-lg-2">
+                        <img src="images/co-founder.png" class="img-fluid rounded-4 shadow-lg"
+                            alt="Rubina Mumtaz - CTO">
+                    </div>
+                    <div class="col-lg-7 order-lg-1">
+                        <span class="badge bg-info text-dark px-3 py-2 rounded-pill fw-bold">Chief Technology
+                            Officer</span>
+                        <h2 class="display-6 fw-bold mt-2">Rubina Mumtaz</h2>
+                        <h5 class="text-info mb-3">Co-Founder & CTO | Full-Stack Developer</h5>
+                        <p class="text-white-50">
+                            Rubina Mumtaz drives the technological solutions at Stellax Agency, specializing in
+                            full-stack web development, digital marketing strategies, and system integrations that
+                            empower businesses to scale efficiently online.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Leadership Section End -->
+    </main>
+
+
     <!-- Footer Start -->
     <footer class="footer">
         <div class="container">
