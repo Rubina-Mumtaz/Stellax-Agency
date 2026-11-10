@@ -157,6 +157,80 @@ header {
     box-shadow: 0 6px 15px rgba(0, 194, 203, 0.3);
 }
 
+/* Modal Container Styling */
+#portfolio-gallery-modal {
+    background: #0B1C2D !important;
+    color: #fff !important;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px !important;
+    padding: 2rem !important;
+    max-width: 900px !important;
+    width: 95% !important;
+    max-height: 85vh !important;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+}
+
+/* Modal Gallery Grid - Scroll fix */
+#modal-gallery-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)) !important;
+    gap: 1.25rem !important;
+    max-height: calc(70vh - 100px) !important;
+    overflow-y: auto !important;
+    padding-right: 5px;
+}
+
+/* Individual Gallery Card */
+#modal-gallery-grid .gallery-item {
+    background: #112238 !important;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px !important;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Media Container - Image poori dikhegi, kate gi nahi */
+#modal-gallery-grid .gallery-media {
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 220px; /* Box ki height fix */
+}
+
+#modal-gallery-grid .gallery-media img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important; /* Yeh image ko katne se bachayega aur poori fit karega */
+}
+
+#modal-gallery-grid .gallery-media video {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+
+/* Gallery Info Footer */
+#modal-gallery-grid .gallery-item-info {
+    padding: 0.85rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    background: #0B1C2D;
+}
+
+#modal-gallery-grid .project-num {
+    background: rgba(13, 202, 240, 0.15);
+    color: #0dcaf0;
+    padding: 0.2rem 0.5rem;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
 /* FOOTER */
 .footer {
     background-color: #08172D;
